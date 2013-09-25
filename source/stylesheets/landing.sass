@@ -1,0 +1,94 @@
+@import compass
+@import susy
+@import animate
+@import lib/image-2x
+
+$hive-yellow: #FFD72F
+$shadow-color: rgba(0,0,0,.25)
+$glow-color: rgba(255, 255, 255, .5)
+
++animate-fadeInUp
+
+html
+  height: 100%
+  overflow: hidden
+
+body
+  padding-bottom: 100px
+
+.landing
+  background: #242c39 image-url("bg.jpg") center center fixed
+  font-family: "Helvetica", sans-serif
+  font-weight: 300
+  letter-spacing: -.1em
+  color: #fff
+  text-align: center
+
+  .logo
+    margin: 0 auto
+    text-indent: -999em
+    display: block
+    width: 128px
+    height: 128px
+    +opacity(0)
+    +image-2x("logo.png", "logo@2x.png", 128px, 128px)
+    +animation(fadeInUp 1s ease forwards)
+
+  p
+    font-size: 2em
+    text-shadow: 0 1px 0 $shadow-color
+    +opacity(0)
+    +animation(fadeInUp 1s ease .5s forwards)
+
+  .btn-container
+    margin-top: 2em
+    +opacity(0)
+    +animation(fadeInUp 1s ease 1s forwards)
+
+  .button
+    background: $hive-yellow
+    border: 1px solid darken($hive-yellow, 10%)
+    color: darken($hive-yellow, 80%)
+    padding: .5em 2em
+    text-shadow: 0 1px 0 $glow-color
+    +border-radius(.5em)
+    +background-image(linear-gradient($hive-yellow, darken($hive-yellow, 10%)))
+    +box-shadow(inset 0 1px 0 $glow-color, 0 2px 4px $shadow-color)
+
+    &:hover
+      color: darken($hive-yellow, 50%)
+      background: lighten($hive-yellow, 5%)
+      +background-image(linear-gradient(lighten($hive-yellow, 5%), $hive-yellow))
+
+
+  a
+    color: $hive-yellow
+    text-decoration: none
+    +transition(color .5s ease)
+
+    &:hover
+      color: lighten($hive-yellow, 10%)
+
+  .teaser-container
+    position: absolute
+    margin: 0
+    padding: 0
+    bottom: -120px
+    left: 0
+    right: 0
+    width: 100%
+    text-align: center
+    z-index: -1
+    +opacity(0)
+    +transition(all .5s ease)
+    +animation(fadeInUp 1s ease 1.5s forwards)
+
+    &:hover
+      bottom: -80px
+
+    img
+      vertical-align: bottom
+
+.container
+  padding-top: 7.5%
+  +container
