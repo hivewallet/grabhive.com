@@ -6,3 +6,6 @@ gem "compass", "~>0.13.alpha.0"
 # Assets
 gem "susy"
 gem "animate"
+
+# Deployment
+gem "middleman-deploy"
