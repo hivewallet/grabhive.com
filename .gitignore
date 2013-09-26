@@ -18,3 +18,4 @@
 
 # Ignore production config
 config.production.rb
+config.rb
