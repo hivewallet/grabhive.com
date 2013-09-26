@@ -6,6 +6,7 @@
 $hive-yellow: #FFD72F
 $shadow-color: rgba(0,0,0,.25)
 $glow-color: rgba(255, 255, 255, .5)
+$warning-red: #E54B3F
 
 +animate-fadeInUp
 
@@ -92,3 +93,14 @@ body
 .container
   padding-top: 7.5%
   +container
+
+.warning-container
+  letter-spacing: 0
+  font-size: .75em
+  background: $warning-red
+  padding: .75em 1em
+  position: fixed
+  left: 0 
+  right: 0
+  top: 0
+  text-align: center
