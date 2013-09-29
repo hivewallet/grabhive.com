@@ -8,4 +8,24 @@
         <description>What's new in Hive</description>
         <language>en</language>
     </channel>
+
+    <item>
+        <title>Hive 0.9 build 2013092901</title>
+        <description>
+            <![CDATA[
+                <ul>
+                    <li>added warning about beta version on first run</li>
+                    <li>updated credits file</li>
+                </ul>
+            ]]>
+        </description>
+        <pubDate>Sun, 29 Sep 2013 09:21:20 +0000</pubDate>
+        <enclosure
+        url="https://github.com/grabhive/hive-osx/releases/download/2013092901/Hive-2013092901md.zip"
+        sparkle:version="2013092901"
+        sparkle:shortVersionString="0.9"
+        length="17528747"
+        type="application/octet-stream"
+        sparkle:dsaSignature="MEQCIEKvF0qAiQfdQ6RxAA5kwfDX3XXzOLyETFkE4RbAHNTpAiAgIWR3BTWCt3iW112uK8fTv9wrw8IX8m/FUT8xKLzluw==" />
+    </item>
 </rss>
