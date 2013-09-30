@@ -10,17 +10,24 @@ $warning-red: #E54B3F
 
 +animate-fadeInUp
 
-body
-  padding-bottom: 100px
+html
+  background-color: #242c39
+  background-image: image-url("bg.jpg")
+  background-size: 100% 100%
+  background-attachment: fixed
+  background-repeat: no-repeat
+  background-position: center center
+  display: block
+  min-height: 100%
 
 .landing
-  background: #242c39 image-url("bg.jpg") center center no-repeat
-  background-size: 100% 100%
   font-family: "Helvetica", sans-serif
   font-weight: 300
   letter-spacing: -.1em
   color: #fff
   text-align: center
+  margin: 0
+  padding: 0 0 150px
 
   .logo
     margin: 0 auto
@@ -76,19 +83,17 @@ body
     right: 0
     width: 100%
     text-align: center
-    z-index: -1
-    +opacity(0)
     +transition(all .5s ease)
+    +backface-visibility(hidden)
+    +opacity(0)
     +animation(fadeInUp 1s ease 1.5s forwards)
 
-    &:hover
-      bottom: -80px
 
     img
       vertical-align: bottom
 
 .container
-  padding-top: 7.5%
+  padding-top: 5%
   +container
 
 .warning-container
@@ -101,11 +106,12 @@ body
   right: 0
   top: 0
   text-align: center
-  z-index: 100
+  z-index: 101
 
 #mc_embed_signup
   background: rgba(0,0,0,.5)
-  padding: 1em
+  padding: .5em
+  margin-top: 1em
   +border-radius(.25em)
 
 #mc-embedded-subscribe-form
