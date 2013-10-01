@@ -9,23 +9,26 @@
         <language>en</language>
 
         <item>
-            <title>Hive 0.9 build 2013092901</title>
+            <title>Hive 0.9 build 2013100101</title>
             <description>
                 <![CDATA[
+                    <strong>Note: if you get an "improperly signed" error, you'll need to download the new version manually from the site this time. Sorry about that :\</strong>
+
                     <ul>
-                        <li>added warning about beta version on first run</li>
-                        <li>updated credits file</li>
+                        <li>fixed some error handling in apps</li>
+                        <li>update app icon immediately after installing a new version</li>
+                        <li>fixed Sparkle updater problems</li>
                     </ul>
                 ]]>
             </description>
-            <pubDate>Sun, 29 Sep 2013 09:21:20 +0000</pubDate>
+            <pubDate>Tue, 01 Oct 2013 15:20:00 +0000</pubDate>
             <enclosure
-            url="https://github.com/grabhive/hive-osx/releases/download/2013092901/Hive-2013092901md.zip"
-            sparkle:version="2013092901"
+            url="https://github.com/grabhive/hive-osx/releases/download/2013100101/Hive-2013100101md.zip"
+            sparkle:version="2013100101"
             sparkle:shortVersionString="0.9"
-            length="17528747"
+            length="18203159"
             type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIEKvF0qAiQfdQ6RxAA5kwfDX3XXzOLyETFkE4RbAHNTpAiAgIWR3BTWCt3iW112uK8fTv9wrw8IX8m/FUT8xKLzluw==" />
+            sparkle:dsaSignature="MEQCIEDLystIm7chxFNu/mFdgl0xTLAb1GkesuFvh7ReK/rUAiBgHfIUAb8CNGzBtZGuDS6QtJ7VSmnpv4FgVkjy7FyaIA==" />
         </item>
     </channel>
 </rss>
