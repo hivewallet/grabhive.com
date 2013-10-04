@@ -9,10 +9,40 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013100401</title>
+            <description>
+                <![CDATA[
+                    <strong>Note: if you're running an older build, you might get an "improperly signed" error - in this case you'll need to download the new version manually from the site. Sorry about that :\</strong>
+
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>you can now edit your profile (name, email)</li>
+                      <li>address validation and better error handling in the send window</li>
+                      <li>if the contacts or transactions list is empty, a nice view will be displayed
+                        explaining what that list is for</li>
+                      <li>new transactions should always be added at the top of the list</li>
+                      <li>fixed moving between contact form fields with the Tab key</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 04 Oct 2013 14:00:58 +0000</pubDate>
+            <enclosure
+            url="https://github.com/grabhive/hive-osx/releases/download/2013100401/Hive-2013100401md.zip"
+            sparkle:version="2013100401"
+            sparkle:shortVersionString="0.9"
+            length="18232041"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIGOlz91SQ8F45mTIb67+kT+35wX1fLmEoEO+lX36mIDGAiBQiqtP3X0E12Mz9k/xaMOal4lnUCT0TPIRHfh3oZj5Dg==" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013100101</title>
             <description>
                 <![CDATA[
                     <strong>Note: if you get an "improperly signed" error, you'll need to download the new version manually from the site this time. Sorry about that :\</strong>
+
+                    <p>What's changed:</p>
 
                     <ul>
                         <li>fixed some error handling in apps</li>
