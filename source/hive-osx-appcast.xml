@@ -9,6 +9,35 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013101401</title>
+            <description>
+                <![CDATA[
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>you can now add and edit avatars - drag &amp; drop a file on the image area or just click
+                        the image and choose a file using the dialog</li>
+                      <li>added keyboard navigation and improved mouse navigation in the autocomplete list in send window</li>
+                      <li>added CoinMap link to the menu</li>
+                      <li>added Sean’s Outpost app</li>
+                      <li>bundled apps are installed/updated every time Hive is updated</li>
+                      <li>added blue higlight in the address box when copying address to clipboard</li>
+                      <li>fixed an issue with deleting wallets when SPV data file is missing</li>
+                      <li>various minor UI fixes</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 14 Oct 2013 09:03:15 +0000</pubDate>
+            <enclosure
+            url="https://github.com/grabhive/hive-osx/releases/download/2013101401/Hive-2013101401md.zip"
+            sparkle:version="2013101401"
+            sparkle:shortVersionString="0.9"
+            length="18751124"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEYCIQCeS2wb9F7GyH/H9Ni4zXV/h+9VPnuwkeSRO47/q/TsbAIhAKRWmQfvPKLdXRcvSxgzzXO/fnpMaHmoLpFoiG7at3qs" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013100401</title>
             <description>
                 <![CDATA[
