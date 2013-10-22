@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013102201</title>
+            <description>
+                <![CDATA[
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>Hive is now translated to Danish, Dutch, French, German, Italian and Polish (more languages coming soon!)</li>
+                      <li>updated JavaScript API for apps</li>
+                      <li>minor updates to built-in apps</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 22 Oct 2013 17:46:03 +0000</pubDate>
+            <enclosure
+            url="https://github.com/grabhive/hive-osx/releases/download/2013102201/Hive-2013102201md.zip"
+            sparkle:version="2013102201"
+            sparkle:shortVersionString="0.9"
+            length="19043691"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIGPbvksic8YkUTB2L3PgE6Ke+Hy3tM4UajU48EA9YtQrAiBP7lTSY+9XS+Y/nsCFa5haVIuhKpBxguv6sXEfqzYlAA==" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013101401</title>
             <description>
                 <![CDATA[
