@@ -9,6 +9,31 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013110501</title>
+            <description>
+                <![CDATA[
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>added Arabic, Chinese Simplified, Czech, Hindi, Korean, Russian, Spanish, Tagalog and Urdu translations</li>
+                      <li>added LocalBitcoins and Patten applications</li>
+                      <li>Hive can now handle bitcoin: links on websites</li>
+                      <li>improved error handling - popup window should now show up if an error occurs while processing blockchain data</li>
+                      <li>fixed JS API breaking after app page is reloaded</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 05 Nov 2013 10:50:22 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2013110501/Hive-2013110501md.zip"
+            sparkle:version="2013110501"
+            sparkle:shortVersionString="0.9"
+            length="20294104"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIHlcknlM61eWT/EMeMkDXGuCKjJpdsd5a31TbNGTImeqAiBRRsW1HVHr5hDPeChSZodcgkylKWGoh0NMoQN2Io2H6w==" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013102201</title>
             <description>
                 <![CDATA[
