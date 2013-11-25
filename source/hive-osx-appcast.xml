@@ -9,6 +9,34 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013112501</title>
+            <description>
+                <![CDATA[
+                    <h3>Warning: it's recommended to back up your Hive data directory (~/Library/Application Support/Hive) before installing this version.</h3>
+
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>added Finnish, Greek, Portuguese (European and Brazilian), Romanian and Turkish translations</li>
+                      <li>switched to a more robust SQLite format for the database file instead of the old XML one</li>
+                      <li>the balance field on the profile page will now show pending balance if some of the funds are blocked</li>
+                      <li>error handling improvements - more errors should be caught, and you have an option of submitting error reports to us (uses HockeyApp API)</li>
+                      <li>fixed issues with disappearing transactions (missing transactions should be restored now)</li>
+                      <li>fixed a problem with BTC amount precision</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 25 Nov 2013 10:52:28 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2013112501/Hive-2013112501md.zip"
+            sparkle:version="2013112501"
+            sparkle:shortVersionString="0.9"
+            length="21116651"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIBrmM65e7pRSUWN48nqqHhTgRXNFlOnqxSRITNQLWGCJAiBHca7RVgkoIz8YBMMFncbCFKzPNKIamtohnDYBNuvY/w==" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013110501</title>
             <description>
                 <![CDATA[
