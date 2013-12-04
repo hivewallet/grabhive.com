@@ -9,6 +9,32 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013120402</title>
+            <description>
+                <![CDATA[
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>currency conversion - you can now see the amount in your chosen fiat currency in the send dialog and on the balance page</li>
+                      <li>fixed issue with incorrect decimal symbol when entering sent amount</li>
+                      <li>transaction fee is now displayed in the send window (and the fee is added to instead of subtracted from the amount)</li>
+                      <li>added Japanese and Serbian (Cyrillic and Latin) translations</li>
+                      <li>UI updates in Sean's Outpost app</li>
+                      <li>improved error handling during startup</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 04 Dec 2013 11:39:51 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2013120402/Hive-2013120402md.zip"
+            sparkle:version="2013120402"
+            sparkle:shortVersionString="0.9"
+            length="21780368"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIE3p0JVkBFQBxP3khhvV5VT/PM2+hi395YFsVhpEXF6kAiBw7HQrukx5HqSSeSjvPe1LihvopV3eYBzP2qJWRXJ/rw==" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013112501</title>
             <description>
                 <![CDATA[
