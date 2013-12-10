@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2013121001</title>
+            <description>
+                <![CDATA[
+                    <p>What's changed:</p>
+
+                    <ul>
+                      <li>JS API updates</li>
+                      <li>changed exchange rate provider to BitcoinAverage</li>
+                      <li>reordered tabs in the main window</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 10 Dec 2013 11:54:25 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2013121001/Hive-2013121001md.zip"
+            sparkle:version="2013121001"
+            sparkle:shortVersionString="0.9"
+            length="21642671"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIEUMv6XvLCr0TY88qWa0Y2GAV0rT6NjXQCepCVaEQ7p+AiBbudXvxBv9Rt3G4t0TYrTFwjvuT6dukvdCVLBxZlL9Ow==" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013120402</title>
             <description>
                 <![CDATA[
