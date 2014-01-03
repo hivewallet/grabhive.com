@@ -9,6 +9,43 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2014010201</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>wallet’s private key can now be encrypted with a password (see “Wallet” menu)</li>
+                      <li>Backup Center - check Time Machine backup status and automatically back up Hive data to your Dropbox folder (see “Tools” menu)</li>
+                      <li>you can now choose Bitcoin unit (BTC, mBTC, µBTC) - default is mBTC</li>
+                      <li>pending transactions are marked as such on the list</li>
+                      <li>added “share” button on Transactions list (10.8+)</li>
+                      <li>Hive offers to move itself to Applications if started e.g. from Downloads</li>
+                      <li>fixed contact autocomplete in Send dialog</li>
+                      <li>UI fixes for some translations</li>
+                      <li>improved German translation</li>
+                      <li>updated bitcoinj to latest version</li>
+                      <li>various bug fixes and UI improvements</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Thu, 02 Jan 2014 19:49:03 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2014010201/Hive-2014010201md.zip"
+            sparkle:version="2014010201"
+            sparkle:shortVersionString="0.9"
+            length="22492037"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEYCIQCVBCljo7o2XXp4bFz2jr5vSy/QuZFAKrhpG4fiT+yWxwIhAIirLkazJJZ9R8sffhLHjieG7QAowWVBjSIA1tLM6y/p" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2013121001</title>
             <description>
                 <![CDATA[
