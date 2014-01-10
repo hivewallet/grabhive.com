@@ -9,6 +9,42 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2014011001</title>
+            <description>
+                <![CDATA[
+                  <style type="text/css">
+                    h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                    ul { font-family: Helvetica; font-size: 10pt; }
+                    li { margin: 5px 0px; }
+                  </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>Dropbox backup is disabled until you set a wallet password</li>
+                      <li>backup is also run after waking up from sleep (previously only on Hive start)</li>
+                      <li>you will get a warning if you try to send much more BTC than usually</li>
+                      <li>transaction date is now localized and shows also time and (for older transactions) year</li>
+                      <li>removed "from" addresses from the transactions list, to discourage users from sending money back to the same address</li>
+                      <li>balance on the profile page will now include Bitcoin from unconfirmed transactions (no separate "pending" balance)</li>
+                      <li>Hive should now automatically figure out user's full name on first start</li>
+                      <li>fixed several bugs related to backups, encryption and other things</li>
+                      <li>added Swedish translation</li>
+                      <li>new API methods for handling currency and Bitcoin formats</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 10 Jan 2014 16:01:59 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2014011001/Hive-2014011001.zip"
+            sparkle:version="2014011001"
+            sparkle:shortVersionString="0.9"
+            length="22612851"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIFDBBMzc2TgROfKoKOImP1TE4/xZrVzV9uE1rSc+ROr8AiEAjNwowd3COt1b1107eJOMg9aG6DRPGBD7AC2KanhhBu0=" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2014010201</title>
             <description>
                 <![CDATA[
