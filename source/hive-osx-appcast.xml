@@ -9,6 +9,33 @@
         <language>en</language>
 
         <item>
+            <title>Hive 0.9 build 2014011002</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed crash on the transactions list</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 10 Jan 2014 19:22:15 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2014011002/Hive-2014011002.zip"
+            sparkle:version="2014011002"
+            sparkle:shortVersionString="0.9"
+            length="22612904"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIQCh/oc1i7B7Do8qMuYv1kIJN0Lm69p7TJp5fjMW1/lxjgIgSoeeavMiF7CTXVjihhU/EB8QXC2owz1pCXoqMoA65xE=" />
+        </item>
+
+        <item>
             <title>Hive 0.9 build 2014011001</title>
             <description>
                 <![CDATA[
