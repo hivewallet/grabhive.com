@@ -4,9 +4,183 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Hive Changelog</title>
-        <link>http://grabhive.com/hive-osx-appcast.xml</link>
+        <link>https://hivewallet.com/hive-osx-appcast.xml</link>
         <description>What's new in Hive</description>
         <language>en</language>
+
+        <item>
+            <title>Hive 1.1.4</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>Hive is now properly signed with Apple's certificate</li>
+                      <li>improved behavior of the dock icon badge</li>
+                      <li>added badge on the transactions tab icon in the sidebar</li>
+                      <li>added link to a FAQ in the Help menu</li>
+                      <li>fixed problem when migrating from an older version of Hive</li>
+                      <li>fixed possible crash caused by other Java software in the system</li>
+                      <li>updated App Store app</li>
+                      <li>updated Filipino, Japanese translations</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 26 Mar 2014 10:51:15 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.4/Hive-1.1.4.zip"
+            sparkle:version="2014032601"
+            sparkle:shortVersionString="1.1.4"
+            length="18288652"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIQCPcHI0WzfoIYaesloDnwqdUS262JmNzublX2Pmw6qMswIgXT/2kE7+HHOyvL3ViHh3rJYI9aDERIbpTMtJhlkLSZg=" />
+        </item>
+
+        <item>
+            <title>Hive 1.1.3</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed a crash in the backup window</li>
+                      <li>fixed a crash in the send dialog in some language configurations</li>
+                      <li>fixed some problems in the crash report tool</li>
+                      <li>fixed application context menu not displaying in translated versions</li>
+                      <li>updated some translations</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 04 Mar 2014 14:48:12 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.3/Hive-1.1.3.zip"
+            sparkle:version="2014030401"
+            sparkle:shortVersionString="1.1.3"
+            length="18126733"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIHnM5StgqqsCBLbcJBKG/5I5OI1ef3mUw4J6BkCA/NSYAiA5l/dgf52q4ptVtAw3Mf7HJB5Xra1foAq4QnNwZBZv7A==" />
+        </item>
+
+        <item>
+            <title>Hive 1.1.2</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>added a lock screen at startup, to prevent someone using your computer from seeing your contacts or transaction list (you can also lock the wallet manually with Cmd+L)</li>
+                      <li>right-click context menu on the apps page - you can uninstall applications or contact the app author</li>
+                      <li>Dropbox backup will be stored in Apps subdirectory if it exists (unless it's already configured)</li>
+                      <li>updated App Store and Mobile Recharge apps</li>
+                      <li>fixed problem with disabled submit button in the "Send" dialog</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 28 Feb 2014 14:03:04 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.2/Hive-1.1.2.zip"
+            sparkle:version="2014022801"
+            sparkle:shortVersionString="1.1.2"
+            length="18075535"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIBsAQ6qYEzAAht1zigbG1bpRpmgEVL8Uus6TZsVnWxmtAiA0bQ+s4jyGCtiC9BpD+gI76wEizdhXD2NnJGyTKM+LPQ==" />
+        </item>
+
+        <item>
+            <title>Hive 1.1.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed possible crash when opening QR code scanner or user's QR code popup</li>
+                      <li>improved QR code scanning</li>
+                      <li>fixed some UI issues on OSX 10.7</li>
+                      <li>fixed minor UI issues in some languages</li>
+                      <li>updated some translations</li>
+                      <li>added alert bar that shows up when network connection is down</li>
+                      <li>added social media links to "About" window</li>
+                      <li>API: added a way to get installed application info</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 24 Feb 2014 16:16:07 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.1/Hive-1.1.1.zip"
+            sparkle:version="2014022401"
+            sparkle:shortVersionString="1.1.1"
+            length="17784972"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIBPcQaTlo4RzhWpzjsJaIG9koRa4iBdxFs5duvkA/2GhAiAvmCAbWl1R4TL+lgvZBH1lhrDz8OJ/GCLRHlFnOQv32w==" />
+        </item>
+
+        <item>
+            <title>Hive 1.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>scanning QR codes - in send window, add contact form and in the top menu</li>
+                      <li>added button to display QR code for your own address</li>
+                      <li>added “Send feedback” option in menu (see “Help” menu)</li>
+                      <li>added info about source of exchange rates data (BitcoinAverage)</li>
+                      <li>added cancel button to contact form</li>
+                      <li>added warning notification if no backups are configured</li>
+                      <li>added App Store app - discover and install more apps</li>
+                      <li>updated Bitpremier, Bitstamp and Minefield apps</li>
+                      <li>Dropbox backup folder can be changed by holding Alt when clicking “Enable”</li>
+                      <li>additional local backups in the same directory, just in case everything else fails</li>
+                      <li>added Hungarian translation</li>
+                      <li>updated French, German, Greek, Polish, Romanian, Tagalog translations</li>
+                      <li>various minor UI improvements</li>
+                      <li>fixed crash on startup during Dropbox backup</li>
+                      <li>API: added a method do install other apps</li>
+                      <li>API: apps can specify which API version they require</li>
+                      <li>API: list of available currencies</li>
+                      <li>API: disabled WebKit same-origin policy hack</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 18 Feb 2014 20:07:25 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1/Hive-1.1.zip"
+            sparkle:version="2014021801"
+            sparkle:shortVersionString="1.1"
+            length="17740412"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIFsIl+RPxTWJtXPQEpTZj99/HBhM5JTgIX8LYGVEUoS2AiEAg24WWoYc2NmGQ6J4a3xi5l5mrfE8EDh3sQF/PMHkaOo=" />
+        </item>
 
         <item>
             <title>Hive 1.0</title>
@@ -48,313 +222,6 @@
             length="16591442"
             type="application/octet-stream"
             sparkle:dsaSignature="MEQCIEF8HVusVGqBRj9g8xsLw2k4O8BorzC8EJjjXuOeAyXpAiAOAgXkQDu+dGAEipGP3AH09lv2njKX/MYhE1fYX2iE8A==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2014011002</title>
-            <description>
-                <![CDATA[
-                    <style type="text/css">
-                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
-                      ul { font-family: Helvetica; font-size: 10pt; }
-                      li { margin: 5px 0px; }
-                    </style>
-
-                    <h2>What's changed:</h2>
-
-                    <ul>
-                      <li>fixed crash on the transactions list</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Fri, 10 Jan 2014 19:22:15 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2014011002/Hive-2014011002.zip"
-            sparkle:version="2014011002"
-            sparkle:shortVersionString="0.9"
-            length="22612904"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEUCIQCh/oc1i7B7Do8qMuYv1kIJN0Lm69p7TJp5fjMW1/lxjgIgSoeeavMiF7CTXVjihhU/EB8QXC2owz1pCXoqMoA65xE=" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2014011001</title>
-            <description>
-                <![CDATA[
-                  <style type="text/css">
-                    h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
-                    ul { font-family: Helvetica; font-size: 10pt; }
-                    li { margin: 5px 0px; }
-                  </style>
-
-                    <h2>What's changed:</h2>
-
-                    <ul>
-                      <li>Dropbox backup is disabled until you set a wallet password</li>
-                      <li>backup is also run after waking up from sleep (previously only on Hive start)</li>
-                      <li>you will get a warning if you try to send much more BTC than usually</li>
-                      <li>transaction date is now localized and shows also time and (for older transactions) year</li>
-                      <li>removed "from" addresses from the transactions list, to discourage users from sending money back to the same address</li>
-                      <li>balance on the profile page will now include Bitcoin from unconfirmed transactions (no separate "pending" balance)</li>
-                      <li>Hive should now automatically figure out user's full name on first start</li>
-                      <li>fixed several bugs related to backups, encryption and other things</li>
-                      <li>added Swedish translation</li>
-                      <li>new API methods for handling currency and Bitcoin formats</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Fri, 10 Jan 2014 16:01:59 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2014011001/Hive-2014011001.zip"
-            sparkle:version="2014011001"
-            sparkle:shortVersionString="0.9"
-            length="22612851"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEUCIFDBBMzc2TgROfKoKOImP1TE4/xZrVzV9uE1rSc+ROr8AiEAjNwowd3COt1b1107eJOMg9aG6DRPGBD7AC2KanhhBu0=" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2014010201</title>
-            <description>
-                <![CDATA[
-                    <style type="text/css">
-                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
-                      ul { font-family: Helvetica; font-size: 10pt; }
-                      li { margin: 5px 0px; }
-                    </style>
-
-                    <h2>What's changed:</h2>
-
-                    <ul>
-                      <li>wallet’s private key can now be encrypted with a password (see “Wallet” menu)</li>
-                      <li>Backup Center - check Time Machine backup status and automatically back up Hive data to your Dropbox folder (see “Tools” menu)</li>
-                      <li>you can now choose Bitcoin unit (BTC, mBTC, µBTC) - default is mBTC</li>
-                      <li>pending transactions are marked as such on the list</li>
-                      <li>added “share” button on Transactions list (10.8+)</li>
-                      <li>Hive offers to move itself to Applications if started e.g. from Downloads</li>
-                      <li>fixed contact autocomplete in Send dialog</li>
-                      <li>UI fixes for some translations</li>
-                      <li>improved German translation</li>
-                      <li>updated bitcoinj to latest version</li>
-                      <li>various bug fixes and UI improvements</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Thu, 02 Jan 2014 19:49:03 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2014010201/Hive-2014010201md.zip"
-            sparkle:version="2014010201"
-            sparkle:shortVersionString="0.9"
-            length="22492037"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEYCIQCVBCljo7o2XXp4bFz2jr5vSy/QuZFAKrhpG4fiT+yWxwIhAIirLkazJJZ9R8sffhLHjieG7QAowWVBjSIA1tLM6y/p" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013121001</title>
-            <description>
-                <![CDATA[
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>JS API updates</li>
-                      <li>changed exchange rate provider to BitcoinAverage</li>
-                      <li>reordered tabs in the main window</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 10 Dec 2013 11:54:25 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013121001/Hive-2013121001md.zip"
-            sparkle:version="2013121001"
-            sparkle:shortVersionString="0.9"
-            length="21642671"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIEUMv6XvLCr0TY88qWa0Y2GAV0rT6NjXQCepCVaEQ7p+AiBbudXvxBv9Rt3G4t0TYrTFwjvuT6dukvdCVLBxZlL9Ow==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013120402</title>
-            <description>
-                <![CDATA[
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>currency conversion - you can now see the amount in your chosen fiat currency in the send dialog and on the balance page</li>
-                      <li>fixed issue with incorrect decimal symbol when entering sent amount</li>
-                      <li>transaction fee is now displayed in the send window (and the fee is added to instead of subtracted from the amount)</li>
-                      <li>added Japanese and Serbian (Cyrillic and Latin) translations</li>
-                      <li>UI updates in Sean's Outpost app</li>
-                      <li>improved error handling during startup</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Wed, 04 Dec 2013 11:39:51 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013120402/Hive-2013120402md.zip"
-            sparkle:version="2013120402"
-            sparkle:shortVersionString="0.9"
-            length="21780368"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIE3p0JVkBFQBxP3khhvV5VT/PM2+hi395YFsVhpEXF6kAiBw7HQrukx5HqSSeSjvPe1LihvopV3eYBzP2qJWRXJ/rw==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013112501</title>
-            <description>
-                <![CDATA[
-                    <h3>Warning: it's recommended to back up your Hive data directory (~/Library/Application Support/Hive) before installing this version.</h3>
-
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>added Finnish, Greek, Portuguese (European and Brazilian), Romanian and Turkish translations</li>
-                      <li>switched to a more robust SQLite format for the database file instead of the old XML one</li>
-                      <li>the balance field on the profile page will now show pending balance if some of the funds are blocked</li>
-                      <li>error handling improvements - more errors should be caught, and you have an option of submitting error reports to us (uses HockeyApp API)</li>
-                      <li>fixed issues with disappearing transactions (missing transactions should be restored now)</li>
-                      <li>fixed a problem with BTC amount precision</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Mon, 25 Nov 2013 10:52:28 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013112501/Hive-2013112501md.zip"
-            sparkle:version="2013112501"
-            sparkle:shortVersionString="0.9"
-            length="21116651"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIBrmM65e7pRSUWN48nqqHhTgRXNFlOnqxSRITNQLWGCJAiBHca7RVgkoIz8YBMMFncbCFKzPNKIamtohnDYBNuvY/w==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013110501</title>
-            <description>
-                <![CDATA[
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>added Arabic, Chinese Simplified, Czech, Hindi, Korean, Russian, Spanish, Tagalog and Urdu translations</li>
-                      <li>added LocalBitcoins and Patten applications</li>
-                      <li>Hive can now handle bitcoin: links on websites</li>
-                      <li>improved error handling - popup window should now show up if an error occurs while processing blockchain data</li>
-                      <li>fixed JS API breaking after app page is reloaded</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 05 Nov 2013 10:50:22 -0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013110501/Hive-2013110501md.zip"
-            sparkle:version="2013110501"
-            sparkle:shortVersionString="0.9"
-            length="20294104"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIHlcknlM61eWT/EMeMkDXGuCKjJpdsd5a31TbNGTImeqAiBRRsW1HVHr5hDPeChSZodcgkylKWGoh0NMoQN2Io2H6w==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013102201</title>
-            <description>
-                <![CDATA[
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>Hive is now translated to Danish, Dutch, French, German, Italian and Polish (more languages coming soon!)</li>
-                      <li>updated JavaScript API for apps</li>
-                      <li>minor updates to built-in apps</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 22 Oct 2013 17:46:03 +0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013102201/Hive-2013102201md.zip"
-            sparkle:version="2013102201"
-            sparkle:shortVersionString="0.9"
-            length="19043691"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIGPbvksic8YkUTB2L3PgE6Ke+Hy3tM4UajU48EA9YtQrAiBP7lTSY+9XS+Y/nsCFa5haVIuhKpBxguv6sXEfqzYlAA==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013101401</title>
-            <description>
-                <![CDATA[
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>you can now add and edit avatars - drag &amp; drop a file on the image area or just click
-                        the image and choose a file using the dialog</li>
-                      <li>added keyboard navigation and improved mouse navigation in the autocomplete list in send window</li>
-                      <li>added CoinMap link to the menu</li>
-                      <li>added Sean’s Outpost app</li>
-                      <li>bundled apps are installed/updated every time Hive is updated</li>
-                      <li>added blue higlight in the address box when copying address to clipboard</li>
-                      <li>fixed an issue with deleting wallets when SPV data file is missing</li>
-                      <li>various minor UI fixes</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Mon, 14 Oct 2013 09:03:15 +0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013101401/Hive-2013101401md.zip"
-            sparkle:version="2013101401"
-            sparkle:shortVersionString="0.9"
-            length="18751124"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEYCIQCeS2wb9F7GyH/H9Ni4zXV/h+9VPnuwkeSRO47/q/TsbAIhAKRWmQfvPKLdXRcvSxgzzXO/fnpMaHmoLpFoiG7at3qs" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013100401</title>
-            <description>
-                <![CDATA[
-                    <strong>Note: if you're running an older build, you might get an "improperly signed" error - in this case you'll need to download the new version manually from the site. Sorry about that :\</strong>
-
-                    <p>What's changed:</p>
-
-                    <ul>
-                      <li>you can now edit your profile (name, email)</li>
-                      <li>address validation and better error handling in the send window</li>
-                      <li>if the contacts or transactions list is empty, a nice view will be displayed
-                        explaining what that list is for</li>
-                      <li>new transactions should always be added at the top of the list</li>
-                      <li>fixed moving between contact form fields with the Tab key</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Fri, 04 Oct 2013 14:00:58 +0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013100401/Hive-2013100401md.zip"
-            sparkle:version="2013100401"
-            sparkle:shortVersionString="0.9"
-            length="18232041"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIGOlz91SQ8F45mTIb67+kT+35wX1fLmEoEO+lX36mIDGAiBQiqtP3X0E12Mz9k/xaMOal4lnUCT0TPIRHfh3oZj5Dg==" />
-        </item>
-
-        <item>
-            <title>Hive 0.9 build 2013100101</title>
-            <description>
-                <![CDATA[
-                    <strong>Note: if you get an "improperly signed" error, you'll need to download the new version manually from the site this time. Sorry about that :\</strong>
-
-                    <p>What's changed:</p>
-
-                    <ul>
-                        <li>fixed some error handling in apps</li>
-                        <li>update app icon immediately after installing a new version</li>
-                        <li>fixed Sparkle updater problems</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 01 Oct 2013 15:20:00 +0000</pubDate>
-            <enclosure
-            url="https://github.com/hivewallet/hive-osx/releases/download/2013100101/Hive-2013100101md.zip"
-            sparkle:version="2013100101"
-            sparkle:shortVersionString="0.9"
-            length="18203159"
-            type="application/octet-stream"
-            sparkle:dsaSignature="MEQCIEDLystIm7chxFNu/mFdgl0xTLAb1GkesuFvh7ReK/rUAiBgHfIUAb8CNGzBtZGuDS6QtJ7VSmnpv4FgVkjy7FyaIA==" />
         </item>
     </channel>
 </rss>
